@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.quicksand_font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.push-50 {
+    margin-bottom: 50px;
+}
+
+.push-20 {
+    margin-bottom: 20px;
+}
+
+.push-10 {
+    margin-bottom: 10px;
+}
+
+.thick_text {
+    font-weight: 600;
+}
+
+.thick.text {
+    font-weight: 600;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.pointed {
+    cursor: pointer;
+}
+
+.opensans_font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#refundbg {
+    background-image: url(../img/woman-portrait-wearing-eyewear-black-background.jpg);
+    min-height: 640px;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+#refundmbg {
+    background-image: url(../img/woman-portrait-wearing-eyewear-black-background.jpg);
+    min-height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+#masthead_segment {
+    min-height: 300px;
+    background-image: url(../img/1152849_OR6ILJ0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grey_background {
+    background-color: #ececec;
+}
+
+.underline_on_hover:hover {
+    text-decoration: underline;
+}
+
+.footer_segment {
+    background-image: url(../img/6072191_3129941.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+/* Recent transactions pagination */
+#txn-pagination {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#txn-pagination .header.item {
+  cursor: default;
+  user-select: none;
+}
+#txn-pages {
+  margin-top: 10px;
+}
+#txn-pages .item.active {
+  font-weight: 600;
+  color: #db2828;
+}
+#txn-pages .item.disabled,
+#txn-pagination .icon.item.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
